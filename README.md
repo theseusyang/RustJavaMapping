@@ -15,3 +15,16 @@ Rust: </p>
 ```fn onMemoryReserved(memoryPool: MemoryPool, target: f64);```
 
 
+### Logger
+
+|  Java   | Rust  |
+|  ----  | ----  |
+| Logger  | log |
+
+Java: </p>
+```private static final Logger logger = LoggerFactory.getLogger(A.class);```
+
+Rust: </p>
+```use log::{info, trace, warn};```
+
+
