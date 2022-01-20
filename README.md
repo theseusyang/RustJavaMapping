@@ -27,4 +27,17 @@ Java: </p>
 Rust: </p>
 ```use log::{info, trace, warn};```
 
+### UUID
+
+|  Java   | Rust  |
+|  ----  | ----  |
+| UUID  | uuid |
+
+Java: </p>
+```final String poolName = UUID.randomUUID().toString();```
+
+Rust: </p>
+```let mut poolName: String = Uuid::new_v4();```
+
+
 
