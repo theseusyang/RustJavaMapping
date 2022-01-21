@@ -22,12 +22,12 @@ Rust: </p>
 | Logger  | log |
 
 Java: </p>
-```private static final Logger logger = LoggerFactory.getLogger(A.class);```</pr>
-```logger.info("The query use much more memory for the memory pool: " + name);```</pr>
+```private static final Logger logger = LoggerFactory.getLogger(A.class);```</p>
+```logger.info("The query use much more memory for the memory pool: " + name);```</p>
 
 Rust: </p>
-```use log::{info, trace, warn};```</pr>
-```info!("The query use much more memory for the memory pool: {}", name);```</pr>
+```use log::{info, trace, warn};```</p>
+```info!("The query use much more memory for the memory pool: {}", name);```</p>
 
 
 
