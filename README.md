@@ -10,11 +10,13 @@ Rust&lt;->Java 语法对照表
 
 Java: </p>
 <code>
-```void onMemoryReserved(MemoryPool memoryPool, double target);```
+void onMemoryReserved(MemoryPool memoryPool, double target);
 </code>
 
 Rust: </p>
-```fn onMemoryReserved(memoryPool: MemoryPool, target: f64);```
+<code>
+fn onMemoryReserved(memoryPool: MemoryPool, target: f64);
+</code>
 
 
 ### Logger
