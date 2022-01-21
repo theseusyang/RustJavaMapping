@@ -69,3 +69,19 @@ Rust</p>
 </code>
 
 
+### HashMap
+
+|  Java   | Rust  |
+|  ----  | ----  |
+| HashMap  | HashMap |
+
+Java: </p>
+<code>
+Map<String, MemoryStatisticsGroup> memoryStatistics = new HashMap();
+</code>
+  
+Rust: </p>
+<code> 
+let mut memoryStatistics: HashMap<&str, MemoryStatisticsGroup> = HashMap::new();
+</code>
+
