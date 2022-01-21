@@ -52,4 +52,20 @@ Rust: </p>
 ```let mut poolName: String = Uuid::new_v4();```
 
 
+### foreach
+
+|  Java   | Rust  |
+|  ----  | ----  |
+| for  | foreach |
+
+Java: </p>
+<code>
+listeners.forEach(listener -> listener.onMemoryReserved(this, MppConfig.getInstance().getMemoryRevokingTarget()));
+</code>
+
+Rust</p>
+<code>
+  for listener in listeners.iter(){ listener.onMemoryReserved(&self, MppConfig::getInstance()::getMemoryRevokingTarget())};
+</code>
+
 
