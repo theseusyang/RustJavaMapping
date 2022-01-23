@@ -68,6 +68,16 @@ Rust</p>
   for listener in listeners.iter(){ listener.onMemoryReserved(&self, MppConfig::getInstance()::getMemoryRevokingTarget())};
 </code>
 
+C++: </p>
+<code>
+for (auto it = snapshot_files.rbegin(); it != snapshot_files.rend(); ++it) 
+</code>
+
+Rust</p>
+<code>
+  ...
+</code>
+
 
 ### HashMap
 
