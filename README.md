@@ -1,5 +1,5 @@
-# RustJavaMapping
-Rust&lt;->Java 语法对照表
+# JavaC++RustMapping
+Rust<->Java<->C++ 语法对照表
 
 ### double 数据类型
 
