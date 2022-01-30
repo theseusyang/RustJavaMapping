@@ -95,3 +95,17 @@ Rust: </p>
 let mut memoryStatistics: HashMap<&str, MemoryStatisticsGroup> = HashMap::new();
 </code>
 
+### std::pair
+|  C++   | Rust  |
+|  ----  | ----  |
+| std::pair  | cosmwasm_std::Pair |
+  
+C++: </p>
+<code>
+std::pair<query::Expression *, size_t>
+</code>  
+
+Rust: </p>
+<code> 
+pub type Pair<V = Vec<u8>> = (Vec<u8>, V);
+</code>
