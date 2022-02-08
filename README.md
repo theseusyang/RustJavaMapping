@@ -29,11 +29,26 @@ Java: </p>
 void onMemoryReserved(MemoryPool memoryPool, double target);
 </code>
 
+
 Rust: </p>
 <code>
 fn onMemoryReserved(memoryPool: MemoryPool, target: f64);
 </code>
 
+### long 数据类型
+
+|  Java   | Rust  |
+|  ----  | ----  |
+| long  | i128 |
+
+Java: </p>
+<code>
+JNIEXPORT jdouble JNICALL Java_io_TimesGraph_std_Vect_##func(JNIEnv *env, jclass cl, jlong pInt, jlong count)</code>
+
+Rust: </p>
+<code>
+fn Vect_##func(pInt: i128, count: i128) ->f64
+</code>
 
 ### Logger
 
