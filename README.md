@@ -1,6 +1,22 @@
 # JavaC++RustMapping
 Rust<->Java<->C++ 语法对照表
 
+### shot 数据类型
+
+|  Java   | Rust  |
+|  ----  | ----  |
+| shot  | i16 |
+
+Java: </p>
+<code>
+void onMemoryReserved(MemoryPool memoryPool, short target);
+</code>
+
+Rust: </p>
+<code>
+fn onMemoryReserved(memoryPool: MemoryPool, target: i16);
+</code>
+
 ### double 数据类型
 
 |  Java   | Rust  |
