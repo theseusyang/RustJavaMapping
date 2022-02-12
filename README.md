@@ -125,8 +125,26 @@ Rust: </p>
 <code> 
 let mut memoryStatistics: HashMap<&str, MemoryStatisticsGroup> = HashMap::new();
 </code>
+  
+### LongList
+
+|  Java   | Rust  |
+|  ----  | ----  |
+| List  | Vec |
+
+Java: </p>
+<code>
+LongList partitions = new LongList();
+</code>
+  
+Rust: </p>
+<code> 
+let mut partitions: Vec<i128> = Vec::new();
+</code>
+    
 
 ### std::pair
+  
 |  C++   | Rust  |
 |  ----  | ----  |
 | std::pair  | cosmwasm_std::Pair |
